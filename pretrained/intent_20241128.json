@@ -1,0 +1,141 @@
+{
+    "intents": [
+        {
+            "tag": "greeting",
+            "language": {
+                "english": {
+                    "patterns": [
+                        "Hi",
+                        "Hey",
+                        "How are you",
+                        "Is anyone there",
+                        "Hello",
+                        "Good day"
+                    ],
+                    "responses": [
+                        "Hey",
+                        "Hello",
+                        "Thanks for visiting",
+                        "Hi there",
+                        "What can I do for you",
+                        "Hi there",
+                        "How can I help you"
+                    ]
+                },
+                "thai": {
+                    "patterns": [
+                        "สวัสดี",
+                        "ดี",
+                        "หวัดดี",
+                        "เห้",
+                        "เฮ้",
+                        "เป็นยังไงบ้าง",
+                        "เป็นอย่างไร",
+                        "มีใครอยู่ไหม"
+                    ],
+                    "responses": [
+                        "สวัสดี",
+                        "สวัสดี มีอะไรให้ฉันช่วยไหม",
+                        "สวัสดีฉันช่วยอะไรคุณได้บ้าง",
+                        "สวัสดี มีอะไรให้ฉันช่วยไหม"
+                    ]
+                }
+            }
+        },
+        {
+            "tag": "goodbye",
+            "language": {
+                "english": {
+                    "patterns": [
+                        "Bye",
+                        "See you later",
+                        "Goodbye"
+                    ],
+                    "responses": [
+                        "See you later",
+                        "Thanks for visiting",
+                        "Have a nice day",
+                        "Bye",
+                        "Come back again soon"
+                    ]
+                },
+                "thai": {
+                    "patterns": [
+                        "เจอกัน",
+                        "เจอกันใหม่นะ",
+                        "บาย",
+                        "บ๊ายบาย"
+                    ],
+                    "responses": [
+                        "เจอกันใหม่นะ ขอบคุณที่เข้ามาเยี่ยมชม",
+                        "ขอให้มีวันที่ดี",
+                        "บาย"
+                    ]
+                }
+            }
+        },
+        {
+            "tag": "thanks",
+            "language": {
+                "english": {
+                    "patterns": [
+                        "Thanks",
+                        "Thank you",
+                        "That's helpful",
+                        "Thank's a lot"
+                    ],
+                    "responses": [
+                        "Happy to help",
+                        "Any time",
+                        "My pleasure"
+                    ]
+                },
+                "thai": {
+                    "patterns": [
+                        "ขอบคุณ",
+                        "ช่วยได้มากเลย",
+                        "มีประโยชน์",
+                        "ขอบคุณมาก"
+                    ],
+                    "responses": [
+                        "ยินดีที่ได้ช่วยเหลือ",
+                        "ได้เสมอ",
+                        "ยินดี",
+                        "ยินดีเป็นอย่างยิ่ง"
+                    ]
+                }
+            }
+        },
+        {
+            "tag": "funny",
+            "language": {
+                "english": {
+                    "patterns": [
+                        "Tell me a joke",
+                        "Tell me something funny",
+                        "Do you know a joke"
+                    ],
+                    "responses": [
+                        "Why did the hipster burn his mouth",
+                        "He drank the coffee before it was cool",
+                        "What did the buffalo say when his son left for college",
+                        "Bison"
+                    ]
+                },
+                "thai": {
+                    "patterns": [
+                        "เล่าเรื่องตลกให้ฟังหน่อย",
+                        "ขอ 1 มุก",
+                        "มีเรื่องตลกไหม"
+                    ],
+                    "responses": [
+                        "ไวพต เพรชตะพึต เฮ้ย",
+                        "ไวเพรช พีตตะพต เฮ้ย",
+                        "ปกติ คุณแม่บ้านใช้อะไรซักผ้าให้ขาว",
+                        "ใช้ผัวค่ะ"
+                    ]
+                }
+            }
+        }
+    ]
+}
