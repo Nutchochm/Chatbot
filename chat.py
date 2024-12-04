@@ -99,15 +99,6 @@ def get_response(msg, language=""):
 
     print(f"Prediction probability: {prob.item()}")
 
-    """if prob.item() > 0.75:
-        for intent in intents['intents']:
-            if tag == intent["tag"]:
-                if language == "english":
-                    responses = intent['language'].get('english', {}).get('responses', [])
-                elif language == "thai":
-                    responses = intent['language'].get('thai', {}).get('responses', [])
-                if responses:
-                    return random.choice(responses)"""
     if prob.item() > 0.75:
         # Match the tag with intents
         if tag in responses_map:
@@ -115,8 +106,9 @@ def get_response(msg, language=""):
             responses = responses_map[tag].get(language, responses_map[tag].get(language, []))
             if responses:
                 return random.choice(responses)
-        return "I do not understand..."
-    
+        elif responses is None:
+            
+            return generate_response(responses)
 
 
 # Load the model and tokenizer
